@@ -1,0 +1,300 @@
+/*ここからheader*/
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px 35px;
+    position: sticky;
+    top: 0;
+    font-size: 22px;
+    z-index: 100;
+}
+
+
+
+/*ここからheader-left*/
+
+.header-left{
+    display: flex;
+}
+
+.header-left>img{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.header-left>span{
+    color: rgb(180, 146, 53);
+    align-self: flex-end;
+}
+
+.header-left>span>strong{
+    font-size: 35px;
+}
+
+
+
+
+/*ここからheader-right*/
+
+.header-right{
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.header-right>div{
+    margin-left: 17px;
+}
+
+.header-right>div>a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-right a:hover{
+    color: rgb(180, 146, 53);
+}
+
+
+
+
+
+/*ここからmain>jigazou*/
+
+
+.jigazou{
+    height: 90vh;
+    background-image: url(../homework/img/2topnatsumi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+h1{
+    color: rgb(180, 146, 53);
+    font-size: 150px;
+}
+
+
+
+
+
+
+/*ここからmain>friends*/
+
+.friends{
+    padding: 10px 0 60px 0;
+}
+.tomodati{
+    font-size: 80px;
+    color: rgb(180, 146, 53);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.amigo{
+    display: flex;
+    justify-content: space-around;
+}
+.amigo>li>img{
+    height: 300px;
+    width: 300px;
+    border: 5px solid rgb(180, 146, 53);
+}
+
+.amigo>li>span{
+    font-size: 80px;
+    font-weight: bold;
+    position: absolute;
+    opacity: 0;
+    padding: 95px 24.74px;
+    color: rgb(180, 146, 53);
+    transition: 1s;
+}
+
+.amigo>li{
+    /* width: 310px; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden;
+}
+
+.amigo>li>span:hover{
+    opacity: 1;
+}
+
+
+
+
+
+/*ここからmain>fun*/
+
+.fun{
+    height: 100vh;
+    background-image: url(../homework/img/club2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(180, 146, 53);
+    padding: 40px 40px;
+}
+
+.kaiin{
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+.fun>form{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.input{
+    border-radius: 5px;
+    margin-bottom: 4px;
+}
+
+
+input[type="submit"]{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    width: 79px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input[type="reset"]{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    width: 79px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(180, 146, 53);
+}
+
+input[type="reset"]:hover{
+    background-color: rgb(180, 146, 53);
+}
+
+.free{
+    height: 65px;
+    width: 157px;
+}
+
+
+
+
+
+/*ここからfooter*/
+
+footer{
+    display: flex;
+    align-items: center;/*上下*/
+    justify-content: center;/*左右*/
+    height: 100px;
+    background-color: black;
+}
+
+footer>p{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/*ここからメディアクエリ*/
+
+
+
+
+@media screen and (max-width:780px) {
+    header{
+        padding: 15px 20px;
+    }
+
+
+    .header-left>span{
+        display: none;
+    }
+
+
+    .header-right{
+        flex-wrap: wrap;
+        width: 252px;
+    }
+    .header-right>div{
+        width: 50%;
+        margin-left: 0;
+    }
+
+
+    h1{
+        font-size: 110px;
+    }
+
+
+    .tomodati{
+        font-size: 60px;
+        padding: 10px 0;
+    }
+
+
+    .amigo{
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+    .amigo>li{
+        margin-top: 20px;
+    }
+
+
+    .kaiin{
+        font-size: 60px;
+        /* padding: 10px 0; */
+    }
+    .fun{
+        background-image: url(../homework/img/club50.jpg);
+        padding: 10px 40px;
+    }
+    .fun>form{
+        margin-top: 70px;
+    }
+    .free {
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    h1{
+        font-size: 90px;
+
+    }
+
+    .fun{
+        background-image: url(../homework/img/club300.jpg);
+        padding: 20px 20px;
+    }
+
+}

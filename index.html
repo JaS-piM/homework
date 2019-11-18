@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Natsumi</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="../homework/img/logo.png" alt="N PRODUCTION">
+            <span>
+                <strong>N</strong>PRODUCTION
+            </span>
+        </div>
+        <div class="header-right">
+            <div class="TALENT"><a href="#">TALENT</a></div>
+            <div class="NEWS"><a href="#">NEWS</a></div>
+            <div class="FUNCLUB"><a href="#">FUNCLUB</a></div>
+            <div class="CONTACT"><a href="#">CONTACT</a></div>
+        </div>
+    </header>
+    <main>
+        <section class="jigazou">
+            <h1>natsumi</h1>
+        </section>
+        <section class="friends">
+            <h2 class="tomodati">friends</h2>
+            <ul class="amigo">
+                <li><img src="../homework/img/onjin.jpg" alt="geinin"><span>geinin</span></li>
+                <li><img src="../homework/img/friend.webp" alt="friend"><span>friend</span></li>
+                <li><img src="../homework/img/yes.jpg" alt="yes"><span>yes</span></li>
+            </ul>
+        </section>
+        <section class="fun">
+            <h2 class="kaiin">funclub</h2>
+            <form action="" method="post">
+                    <div class="item">
+                    <p class="label">会員状況</p>
+                    <div class="input">
+                    <input id="login" type="radio" name="member" value="login">
+                    <label for="login">ログイン</label>
+                    <input id="continued" type="radio" name="member" value="continued">
+                    <label for="continued">継続</label>
+                    <input id="new" type="radio" name="member" value="new">
+                    <label for="new">新規</label><br>
+                </div>
+            </div>
+                <div class="item">
+                    <label class="label">お名前</label><br>
+                    <input class="input" type="text" name="name">
+                </div>
+                <div class="item">
+                    <label class="label">会員No.(お持ちの方)</label><br>
+                    <input class="input" type="number" name="membernumber">
+                </div>
+                <div class="item">
+                    <label class="label">メール</label><br>
+                    <input class="input" type="email" name="email">
+                </div>
+                <div class="item">
+                    <label class="label">コメント</label><br>
+                    <textarea class="input free" name="comment" placeholder="ご自由にご記入下さい"></textarea>
+                </div>
+                <div class="btn-area">
+                    <input type="submit" value="送信">
+                    <input type="reset" value="リセット">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer><p>&#169; 2019 N PRODUCTION ALL RIGHTS RESERVED. </p></footer>
+</body>
+</html>
