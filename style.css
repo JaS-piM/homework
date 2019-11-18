@@ -67,7 +67,7 @@ header{
 
 .jigazou{
     height: 90vh;
-    background-image: url(../homework/img/2topnatsumi.jpg);
+    background-image: url(img/2topnatsumi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -137,7 +137,7 @@ h1{
 
 .fun{
     height: 100vh;
-    background-image: url(../homework/img/club2.jpg);
+    background-image: url(img/club2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(180, 146, 53);
@@ -269,7 +269,7 @@ footer>p{
         /* padding: 10px 0; */
     }
     .fun{
-        background-image: url(../homework/img/club50.jpg);
+        background-image: url(img/club50.jpg);
         padding: 10px 40px;
     }
     .fun>form{
@@ -293,7 +293,7 @@ footer>p{
     }
 
     .fun{
-        background-image: url(../homework/img/club300.jpg);
+        background-image: url(img/club300.jpg);
         padding: 20px 20px;
     }
 
